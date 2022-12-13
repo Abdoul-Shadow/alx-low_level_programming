@@ -3,12 +3,9 @@
 #include <string.h>
 
 /**
- *
- * *  * main - Entry point
- *
- * *    * Return: Always 0 (Success)
- *
- * */
+ * main - A program that prints a line
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 
