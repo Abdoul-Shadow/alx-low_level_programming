@@ -1,25 +1,25 @@
 #include <stdio.h>
 
 /**
-* main - Affiche une chaîne hexadécimale
+* main - Prints a hexadecimal string
 *
-* Retour : toujours (succès)
+* Return: Always (Success)
 */
-int principal (vide)
+int main(void)
 {
-	caractère c ;
+	char c;
 
-	pour (c = '0'; c <= '9'; c++)
+	for (c = '0'; c <= '9'; c++)
 	{
 		putchar(c);
 	}
 
-	pour (c = 'a'; c <= 'f'; c++)
+	for (c = 'a'; c <= 'f'; c++)
 	{
 		putchar(c);
 	}
 
 	putchar('\n');
 
-	retour (0);
+	return (0);
 }
