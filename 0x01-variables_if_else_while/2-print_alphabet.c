@@ -2,12 +2,13 @@
 
 /**
  * main - Prints the alphabetic
- * Retour : toujours (succès)
+ * Return : Always (succès)
  */
 int main(void)
 
 {
 	char c;
+
 	for (c = 'a'; c <= 'z'; c++)
 		putchar(c);
 	putchar('\n');
