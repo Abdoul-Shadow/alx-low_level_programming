@@ -2,7 +2,7 @@
 
 /**
  * main - Prints the alphabetic
- * Return : Always (0)
+ * Return (0): Always (success)
  */
 int main(void)
 
