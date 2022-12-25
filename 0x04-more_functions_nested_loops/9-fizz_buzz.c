@@ -1,25 +1,35 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
-* print_diagonal - n lines
+* main - buzz
 *
-* @n: time diagonal
-*
-* Return: void
+* Return: 0
 */
-void print_diagonal(int)
+int main(void)
 {
-	int i, j;
+	int n;
 
-	for (i = 0; i < n; i++)
+	n = 1;
+	printf("%d", n);
+	for (n = 2; n <= 100; n++)
 	{
-		for (j = 0; j < i; j++)
+		if ((n % 3 == 0) && (n % 5 == 0))
 		{
-			_putchar(' ');
+			printf(" FizzBuzz");
 		}
-		_putchar(92);
-		if (i < (n - 1))
-			_putchar('\n');
+		else if (n % 3 == 0)
+		{
+			printf(" Fizz");
+		}
+		else if (n % 5 == 0)
+		{
+			printf(" Buzz");
+		}
+		else
+		{
+			printf(" %d", n);
+		}
 	}
-	_putchar('\n');
+	printf("\n");
+	return (0);
 }
