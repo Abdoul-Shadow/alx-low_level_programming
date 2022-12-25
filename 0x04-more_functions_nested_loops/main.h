@@ -4,13 +4,13 @@
 
 #include <stdio.h>
 
-entier _putchar(char);
+int _putchar(char);
 
-int _isupper(entier);
+int _isupper(int);
 
-entier _isdigit(int);
+int _isdigit(int);
 
-int mul(entier, entier);
+int mul(int, int);
 
 void print_numbers(void);
 
