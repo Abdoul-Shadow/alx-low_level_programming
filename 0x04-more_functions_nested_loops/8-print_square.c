@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
-* print_diagonal - n lines
+* print_square - n lines
 *
-* @n: time diagonal
+* @n: time square
 *
 * Return: void
 */
-void print_diagonal(int n)
+void print_square(int)
 {
 	int i, j;
 
